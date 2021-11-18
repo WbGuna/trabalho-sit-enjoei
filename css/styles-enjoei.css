@@ -30,7 +30,7 @@
 }
 
 .inicial-link{
-    margin: 0px 0px 0px 200px;
+    margin: 0px 0px 0px 60px;
 }
 
 .nav-item a{
@@ -80,23 +80,27 @@ footer ul {
     margin-bottom:10px
 }
 
-@media (max-width: 1254px) {
+@media (min-width: 1404px) {
     
     .inicial-link{
-        margin: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 200px;
     }
     
-
-    .nav-item a{
-        font-size: 18px;
-        color: rgb(17, 0, 0);
-        padding: 10px;
-        margin: 10px 0px 0px 0px;
-    }
 }
 
+@media (max-width: 1184px){
+    .inicial-link{
+        margin: 0px 0px 0px 0px;
+        font-size: 10px;
+    }
 
-/* @media (max-width: 1450px) {
+    .btn-danger{
+       display: none;
+    }
+
+}
+/*
+@media (max-width: 1450px) {
     
     .inicial-link{
         margin: 0px 0px 0px 200px;
